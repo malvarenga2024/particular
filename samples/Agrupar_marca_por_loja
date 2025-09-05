@@ -1,0 +1,7 @@
+select b.brand_name, s.store_name, count(1)
+from stores s
+inner join orders o on o.store_id = s.store_id
+inner join order_itens oi on oi.order_id = o.order_id
+inner join products p on p.product_id = oi.product_id
+inner join brands b on b.brand_id = p.brand_id
+group by b.brand_name, s.store_name;
