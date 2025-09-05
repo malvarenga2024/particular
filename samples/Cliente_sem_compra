@@ -1,0 +1,2 @@
+select * from customers c
+inner join orders o on o.customer_id = c.customer_id;
