@@ -15,7 +15,7 @@ Este projeto utiliza as seguintes tecnologias:
 
 1. **Clone este repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-sql.git
+   git clone https://github.com/malvarenga2024/particular.git
 Acesse a pasta do projeto:
 
 sql
