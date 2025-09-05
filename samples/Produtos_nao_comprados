@@ -1,0 +1,2 @@
+select * from products p
+inner join order_itens oi on oi.product_id = p.product_id;
