@@ -1,2 +1,3 @@
 select * from products p
-inner join stocks s on s.product_id = p.product_id;
+inner join stocks s on s.product_id = p.product_id
+where quantity > 0;
